@@ -24,11 +24,8 @@ if ($method === 'OPTIONS') {
 }
 
 // Imports
-//include_once '../../config/Database.php';
-//include_once '../../models/Author.php';
-
 include_once __DIR__ . '/../../config/database.php';
-include_once __DIR__ . '/../../models/author.php'; 
+include_once __DIR__ . '/../../models/category.php';
 
 // Initial Object Setup
 $database = new Database();
