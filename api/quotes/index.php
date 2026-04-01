@@ -23,9 +23,9 @@ $method = $_SERVER['REQUEST_METHOD'];
 //include_once '../../models/Category.php';
 
 include_once __DIR__ . '/../../config/database.php';
-include_once __DIR__ . '/../../models/Author.php'; 
-include_once __DIR__ . '../../models/Author.php';
-include_once __DIR__ . '../../models/Category.php';
+include_once __DIR__ . '/../../models/author.php'; 
+include_once __DIR__ . '../../models/author.php';
+include_once __DIR__ . '../../models/category.php';
 
 
 // Initial Object Setup

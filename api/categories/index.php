@@ -28,7 +28,7 @@ if ($method === 'OPTIONS') {
 //include_once '../../models/Author.php';
 
 include_once __DIR__ . '/../../config/database.php';
-include_once __DIR__ . '/../../models/Author.php'; 
+include_once __DIR__ . '/../../models/author.php'; 
 
 // Initial Object Setup
 $database = new Database();

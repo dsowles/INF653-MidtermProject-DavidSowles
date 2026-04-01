@@ -13,9 +13,9 @@
 
 // Include the database and model
 //include_once '../config/Database.php';
-include_once __DIR__ . '../config/Database.php';
+include_once __DIR__ . '../config/database.php';
 //include_once '../models/Author.php';
-include_once __DIR__ . '../models/Author.php';
+include_once __DIR__ . '../models/author.php';
 
 // Instantiate Database and Connect
 $database = new Database();
