@@ -23,7 +23,8 @@ class Database {
             // Parse the connection string for Render
             $dbparts = parse_url($url);
             $host = $dbparts['host'];
-            $port = $dbparts['port'];
+            //$port = $dbparts['port'];
+            $port = isset($dbparts['port']) ? $dbparts['port'] : '5432';
             $user = $dbparts['user'];
             $pass = $dbparts['pass'];
             $dbname = ltrim($dbparts['path'], '/');
