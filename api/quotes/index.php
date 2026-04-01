@@ -17,10 +17,16 @@ header('Content-Type: application/json');
 $method = $_SERVER['REQUEST_METHOD'];
 
 // Imports
-include_once '../../config/Database.php';
-include_once '../../models/Quote.php';
-include_once '../../models/Author.php';
-include_once '../../models/Category.php';
+//include_once '../../config/Database.php';
+//include_once '../../models/Quote.php';
+//include_once '../../models/Author.php';
+//include_once '../../models/Category.php';
+
+include_once __DIR__ . '/../../config/database.php';
+include_once __DIR__ . '/../../models/Author.php'; 
+include_once __DIR__ . '../../models/Author.php';
+include_once __DIR__ . '../../models/Category.php';
+
 
 // Initial Object Setup
 $database = new Database();
